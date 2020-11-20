@@ -16,10 +16,10 @@
     <div transition:scale="{{ duration: 2000, delay: 2000}}" class="pad-top">
         <div class="row center">
             <div class="col">
-                <img src="portrait_One.jpg" alt="portrait_image" height="1000vh" width="680vw">
+                <img src="portrait_One.webp" alt="portrait_image" height="1000vh" width="680vw">
             </div>
             <div class="col down">
-                <img src="portrait_Two.jpg" alt="portrait_image" height="1000vh" width="680vw">
+                <img src="portrait_Two.webp" alt="portrait_image" height="1000vh" width="680vw">
             </div>
         </div>
     </div> 
@@ -28,5 +28,5 @@
         <h1>who we are</h1>
     </div>
 
-    <center><img transition:scale="{{ duration: 2000, delay: 3000}}" src="portrait_Three.jpg" alt="portrait_image" height="800vh" width="1000vw"></center>
+    <center><img transition:scale="{{ duration: 2000, delay: 3000}}" src="portrait_Three.webp" alt="portrait_image" height="800vh" width="1000vw"></center>
 </div>
