@@ -72,9 +72,13 @@
     </div>
 </div>
 
+<h1 class="pt-5">Pricing</h1>
+<center><img id="pricing" src="pricing.svg" alt="pricing"></center>
+
 <div class="container pb-3 pt-4">
     <div class="row">
         <div class="col-md-6 col-sm-12 pt-5 mx-auto">
+            <h1>Contact us</h1>
             <form name='contact' method='POST' data-netlify="true">
                 <fieldset>
                 <div class="form-group">

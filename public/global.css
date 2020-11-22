@@ -95,6 +95,9 @@ p{
 label{
     
 }
+#pricing{
+    width: 100%;
+}
 .btn-primary{
     background-color: #635F40;
     border-color: #757046;
