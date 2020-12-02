@@ -73,7 +73,7 @@
 </div>
 
 <h1 class="pt-5">Pricing</h1>
-<center><img id="pricing" src="pricing.svg" alt="pricing"></center>
+<center><img id="pricing" src="pricing.webp" alt="pricing"></center>
 
 <div class="container pb-3 pt-4">
     <div class="row">
