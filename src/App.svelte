@@ -72,8 +72,13 @@
     </div>
 </div>
 
-<h1 class="pt-5">Pricing</h1>
-<center><img id="pricing" src="pricing.webp" alt="pricing"></center>
+<div class="container">
+    <h1 class="pt-5">Pricing</h1>
+    <br><br>
+    <center><button id="pricing" class="btn-primary" onclick="window.location.href='pricing.pdf';">
+    View / Download
+    </button></center>
+</div>
 
 <div class="container pb-3 pt-4">
     <div class="row">
@@ -114,7 +119,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12 segOne text-center">
-                <p> |  Freelance Make Up Artists | GAUTENG | South Africa  | </p>
+                <p style="color:white;"> |  Freelance Make Up Artists | GAUTENG | South Africa  | </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12 segmTwo text-center">
                 <img class="img-fluid" src="MTME_logo.png" alt="MTME_logo" width="170" height="170">

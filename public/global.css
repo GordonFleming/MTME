@@ -4,7 +4,7 @@ html, body {
     height: 100%;
 }
 body {
-    background-color: #d8c4bd23;
+    background-color: #ffffff;
     overflow-y: scroll;
     /* overflow-x: hidden; */
     color: #333;
@@ -14,11 +14,18 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 a{
-	color: rgb(201, 192, 152);
+	color: rgb(255, 255, 255);
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(185, 177, 139);
 }
 #mail{
     font-size: 22px;
+}
+#pricing{
+    padding: 1.2rem;
 }
 .segOne{
     padding-top: 2vh;
@@ -28,10 +35,6 @@ a{
 } */
 .segThree{
     padding-top: 2vh;
-}
-a:hover {
-    text-decoration: underline;
-    color: rgb(185, 177, 139);
 }
 label {
 	display: block;
@@ -43,15 +46,15 @@ input, button, select, textarea {
 	padding: 0.4em;
 	margin: 0 0 0.5em 0;
 	box-sizing: border-box;
-	border: 2px solid#827D54;
+	border: 2px solid#000000;
 	border-radius: 2px;
 }
 .form-control{
-    border: 2px solid#827D54;
+    border: 2px solid#000000;
     border-radius: 0;
 }
 .form-control:focus{
-    border: 3px solid#b8ad5f;
+    border: 3px solid#181817;
     border-radius: 0;
     box-shadow: none;
 }
@@ -59,13 +62,13 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #827D54;
+    color: #000000;
 }
 h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    color: #827D54;
+    color: #000000;
 }
 h3{
     text-align: center;
@@ -78,15 +81,15 @@ h4{
     text-align: center;
     padding-top: 1vh;
     font-size: 1.5rem;
-    color: #827D54;
+    color: #000000;
     font-weight: 400;
 }
 strong{
-    color: #827D54;
+    color: #0f0f0f;
 }
 p{
     font-size: 1.15rem;
-    color: #968B53;
+    color: #000000;
 }
 .p-top{
     font-size: 1.4rem;
@@ -99,16 +102,16 @@ label{
     width: 100%;
 }
 .btn-primary{
-    background-color: #635F40;
-    border-color: #757046;
+    background-color: #000;
+    border-color: rgb(41, 40, 40);
     margin-top: 2vh;
     margin-bottom: 4vh;
     width: 100%;
     border-radius: 0;
 }
 .btn-primary:hover{
-    background-color: #97947d;
-    border-color: #757046;
+    background-color: #000;
+    border-color: rgb(73, 71, 71);
 }
 i{
     margin: 0 auto;
@@ -141,12 +144,12 @@ i{
 }
 #btm-border{
     height: 3vh;
-    background-color: #635F40;
+    background-color: #000000;
 }
 .footer_look {
-    background: #635F40;
+    background: #000000;
     padding: 10px;
-    border-top: 3px solid #7a7440;
+    border-top: 3px solid #252525;
 }
 .pad-top{
     padding-top: 6vh;
