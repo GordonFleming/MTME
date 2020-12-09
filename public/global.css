@@ -21,21 +21,6 @@ a:hover {
     text-decoration: underline;
     color: rgb(185, 177, 139);
 }
-#mail{
-    font-size: 22px;
-}
-#pricing{
-    padding: 1.2rem;
-}
-.segOne{
-    padding-top: 2vh;
-}
-/* .segTwo{
-    
-} */
-.segThree{
-    padding-top: 2vh;
-}
 label {
 	display: block;
 }
@@ -49,6 +34,63 @@ input, button, select, textarea {
 	border: 2px solid#000000;
 	border-radius: 2px;
 }
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #000000;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #504d4d;
+    font-weight: 200;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h4{
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+strong{
+    color: #0f0f0f;
+}
+p{
+    font-size: 1.15rem;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #000000;
+}
+i{
+    margin: 0 auto;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 8vh;
+    color: #333;
+}
+
+/* Class's */
+
+.segOne{
+    padding-top: 4vh;
+}
+/* .segTwo{
+    
+} */
+.segThree{
+    padding-top: 4vh;
+}
 .form-control{
     border: 2px solid#000000;
     border-radius: 0;
@@ -58,48 +100,9 @@ input, button, select, textarea {
     border-radius: 0;
     box-shadow: none;
 }
-h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    color: #000000;
-}
-h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: #000000;
-}
-h3{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: #827D54;
-    font-weight: 200;
-}
-h4{
-    text-align: center;
-    padding-top: 1vh;
-    font-size: 1.5rem;
-    color: #000000;
-    font-weight: 400;
-}
-strong{
-    color: #0f0f0f;
-}
-p{
-    font-size: 1.15rem;
-    color: #000000;
-}
 .p-top{
     font-size: 1.4rem;
     text-align: center;
-}
-label{
-    
-}
-#pricing{
-    width: 100%;
 }
 .btn-primary{
     background-color: #000;
@@ -110,15 +113,16 @@ label{
     border-radius: 0;
 }
 .btn-primary:hover{
-    background-color: #000;
+    background-color: rgb(54, 51, 51);
     border-color: rgb(73, 71, 71);
 }
-i{
-    margin: 0 auto;
-    padding-right: 2.2vw;
-    padding-left: 2.2vw;
-    padding-top: 8vh;
-    color: #333;
+.btn-primary:focus{
+    background-color: rgb(54, 51, 51);
+    border-color: rgb(73, 71, 71);
+    box-shadow: none;
+}
+.btn-primary:active{
+    box-shadow: 0;
 }
 .down{
     padding-top: 2vh;
@@ -126,6 +130,23 @@ i{
 .center{
     display: flex;
     justify-content: center;
+}
+.footer_look {
+    background: #000000;
+    padding: 10px;
+    border-top: 3px solid #252525;
+}
+.pad-top{
+    padding-top: 6vh;
+}
+
+/* id's */
+
+#mail{
+    font-size: 22px;
+}
+#pricing{
+    padding: 1.2rem;
 }
 #facebook:hover{
     color: #4C6EF5;
@@ -136,6 +157,9 @@ i{
 #insta:hover{
     color: #CD2C88;
 }
+#linkedin:hover{
+    color: #0A66C2;
+}
 #cover{
     padding: 28%;
     background-image: url("jumbo_image.webp");
@@ -143,17 +167,16 @@ i{
     background-size: cover;
 }
 #btm-border{
-    height: 3vh;
+    height: 5vh;
+    font-size: 0.85rem;
+    padding-top: 1rem;
     background-color: #000000;
 }
-.footer_look {
-    background: #000000;
-    padding: 10px;
-    border-top: 3px solid #252525;
+#pricing{
+    width: 50%;
+    box-shadow: 0;
 }
-.pad-top{
-    padding-top: 6vh;
-}
+
 /* Scroll bar, Chrome */
 ::-webkit-scrollbar {
     width: 8px;

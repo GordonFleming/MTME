@@ -12,6 +12,7 @@
         <a href="https://www.facebook.com/mtme.macktwins.1" target="_blank"><i id="facebook" class="fab fa-facebook-square fa-5x"></i></a>
         <a href="https://www.youtube.com/channel/UC91OgmMT9nhFcjjDEfmJy-w" target="_blank"><i id="youtube" class="fab fa-youtube fa-5x"></i></a>
         <a href="https://instagram.com/macktwinsmakeup" target="_blank"><i id="insta" class="fab fa-instagram-square fa-5x"></i></a>
+        <a href="http://www.linkedin.com/company/mack-twins-makeup/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
     </center>
     <br><br>
     <h1>who we are</h1>
@@ -75,9 +76,7 @@
 <div class="container">
     <h1 class="pt-5">Pricing</h1>
     <br><br>
-    <center><button id="pricing" class="btn-primary" onclick="window.location.href='pricing.pdf';">
-    View / Download
-    </button></center>
+    <center> <a href="pricing.pdf" target='_blank'><button id="pricing" class="btn-primary">View / Download</button></a></center>
 </div>
 
 <div class="container pb-3 pt-4">
@@ -122,7 +121,7 @@
                 <p style="color:white;"> |  Freelance Make Up Artists | GAUTENG | South Africa  | </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12 segmTwo text-center">
-                <img class="img-fluid" src="MTME_logo.png" alt="MTME_logo" width="170" height="170">
+                <img class="img-fluid" src="white_logo.webp" alt="MTME_logo" width="170" height="170">
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 segThree text-center">
                 <a id="mail" href="mailtobookings@mtme.co.za" >bookings@mtme.co.za</a>
