@@ -39,14 +39,14 @@ h1{
     text-transform: uppercase;
     font-size: 2.5rem;
     color: #000000;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
     color: #000000;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 h3{
     text-align: center;
@@ -54,7 +54,7 @@ h3{
     font-size: 1.5rem;
     color: #504d4d;
     font-weight: 200;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 h4{
     text-align: center;
@@ -62,15 +62,15 @@ h4{
     font-size: 1.5rem;
     color: #000000;
     font-weight: 400;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 strong{
     color: #0f0f0f;
 }
 p{
     font-size: 1.15rem;
-    font-family: 'Julius Sans One', sans-serif;
     color: #000000;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 i{
     margin: 0 auto;
