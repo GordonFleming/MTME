@@ -160,16 +160,22 @@ i{
 #linkedin:hover{
     color: #0A66C2;
 }
+#youtube-text{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
 #cover{
     padding: 28%;
-    background-image: url("https://cdn.statically.io/gh/wolfbyne/MTME/main/public/jumbo_image.webp");
+    background-image: url("https://cdn.statically.io/gh/wolfbyne/MTME/main/public/images/jumbo_image.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #btm-border{
-    height: 5vh;
+    height: 6vh;
     font-size: 0.85rem;
-    padding-top: 1rem;
+    padding: 1rem;
     background-color: #000000;
 }
 #pricing{
