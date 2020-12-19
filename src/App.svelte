@@ -141,7 +141,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12 segOne text-center">
-                <p style="color:white;"> |  Freelance Make Up Artists | GAUTENG <br> | South Africa  | </p>
+                <p style="color:white;"> |  Freelance Make Up Artists | GAUTENG | <br> | South Africa  | </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12 segmTwo text-center">
                 <img class="img-fluid" src="/images/white_logo.webp" alt="MTME_logo" width="170" height="170">
