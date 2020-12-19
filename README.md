@@ -96,3 +96,4 @@ Link Netlify to your repo, then use the following
 Publish directory: ``` public ```
 Build command: ``` npm build ```
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c9ae9f8-d5ba-4ed6-9050-8ec6bf152aa0/deploy-status)](https://app.netlify.com/sites/mtme/deploys)
