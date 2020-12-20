@@ -171,6 +171,7 @@ i{
     background-image: url("https://cdn.statically.io/gh/wolfbyne/MTME/main/public/images/jumbo_image.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 #btm-border{
     height: 6vh;
