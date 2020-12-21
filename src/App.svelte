@@ -23,16 +23,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <img class="img-fluid" src="/images/portrait_One.webp" alt="portrait_image" height="1000vh" width="680vw">
-                    <p class="pt-4 p-top">We eventually left the makeup industry to pursue Jobs In the field in which we studied – Biotechnology.</p>
-                    <p class="p-top">Yet our passion for makeup never left us and as a side hustle we did some freelancing makeup Jobs.</p>
-                    <p class="p-top">The Beauty Industry really ignited the passion within us , to push our creativity to the next level and enhance our artistry skill.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
                     <p class="p-top">We are the <strong>Mack Twins</strong>, Chanel & Charnay Mack , professional freelance makeup artists.</p>
                     <p class="p-top"><strong>Welcome to our Makeup Website</strong></p>
                     <p class="pb-4 p-top">Our makeup Artistry journey started in the year 2013, while studying towards our Bsc degrees. We were approached by @elizabetharden to promote their new lipstick line , and from there got approached by @bobbibrown and worked there for 2 years and then @maccosmeticsafrica for another 2 years and lastly @urbandecaycosmetics .</p>
                     <img class="img-fluid" src="/images/portrait_Two.webp" alt="portrait_image" height="1000vh" width="680vw">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid mt-sm-5 mt-md-0" src="/images/portrait_One.webp" alt="portrait_image" height="1000vh" width="680vw">
+                    <p class="pt-4 p-top">We eventually left the makeup industry to pursue Jobs In the field in which we studied – Biotechnology.</p>
+                    <p class="p-top">Yet our passion for makeup never left us and as a side hustle we did some freelancing makeup Jobs.</p>
+                    <p class="p-top">The Beauty Industry really ignited the passion within us , to push our creativity to the next level and enhance our artistry skill.</p>
                 </div>
             </div>
         </div>

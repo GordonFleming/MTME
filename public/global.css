@@ -22,7 +22,9 @@ a:hover {
     color: rgb(185, 177, 139);
 }
 label {
-	display: block;
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 input, button, select, textarea {
 	font-family: inherit;
@@ -142,6 +144,17 @@ i{
 
 /* id's */
 
+#width{
+    width: 10vw;
+}
+#bd-email{
+    width: 25vw;
+    padding: 1.3rem;
+    border-color: black;
+}
+#bd-email:focus{
+    width: 28vw;
+}
 #mail{
     font-size: 22px;
 }
@@ -171,7 +184,6 @@ i{
     background-image: url("https://cdn.statically.io/gh/wolfbyne/MTME/main/public/images/jumbo_image.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 #btm-border{
     height: 6vh;
