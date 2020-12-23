@@ -145,15 +145,33 @@ i{
 /* id's */
 
 #width{
-    width: 10vw;
+    width: 10rem;
 }
-#bd-email{
-    width: 25vw;
-    padding: 1.3rem;
-    border-color: black;
+@media screen and (min-width: 601px) {
+    #bd-email{
+        width: 18rem;
+        padding: 1.3rem;
+        border-color: black;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+    }
+    #bd-email:focus{
+        width: 22rem;
+    }
 }
-#bd-email:focus{
-    width: 28vw;
+@media screen and (max-width: 601px) {
+    #bd-email{
+        width: 10rem;
+        padding: 0.1rem;
+        border-color: black;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+    }
+    #bd-email:focus{
+        width: 12rem;
+    }
 }
 #mail{
     font-size: 22px;
@@ -195,6 +213,74 @@ i{
     width: 50%;
     box-shadow: 0;
 }
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.219); /* Black w/ opacity */
+  }
+@media screen and (min-width: 601px) {
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        border-radius: 0;
+        width: 60%; /* Could be more or less, depending on screen size */
+    }
+}
+@media screen and (max-width: 601px) {
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 20% auto; /* 15% from the top and centered */
+        padding: 10px;
+        border: 1px solid #888;
+        border-radius: 0;
+        width: 85%; /* Could be more or less, depending on screen size */
+    }
+}
+
+
+  #top-txt{
+    text-transform: uppercase;
+    font-size: 3.1vw;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  #bottom-txt{
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    text-align: right;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 /* Scroll bar, Chrome */
 ::-webkit-scrollbar {

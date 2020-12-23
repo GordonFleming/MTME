@@ -11,10 +11,10 @@
     <div class="container text-center mb-5">
         <div class="row">
             <div>
-            <a href="https://www.facebook.com/mtme.macktwins.1" target="_blank"><i id="facebook" class="fab fa-facebook-square fa-5x"></i></a>
-            <a href="https://www.youtube.com/channel/UC91OgmMT9nhFcjjDEfmJy-w" target="_blank"><i id="youtube" class="fab fa-youtube fa-5x"></i></a>
-            <a href="https://instagram.com/macktwinsmakeup" target="_blank"><i id="insta" class="fab fa-instagram-square fa-5x"></i></a>
-            <a href="http://www.linkedin.com/company/mack-twins-makeup/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://www.facebook.com/mtme.macktwins.1" target="_blank"><i id="facebook" class="fab fa-facebook-square fa-4x"></i></a>
+            <a href="https://www.youtube.com/channel/UC91OgmMT9nhFcjjDEfmJy-w" target="_blank"><i id="youtube" class="fab fa-youtube fa-4x"></i></a>
+            <a href="https://instagram.com/macktwinsmakeup" target="_blank"><i id="insta" class="fab fa-instagram-square fa-4x"></i></a>
+            <a href="http://www.linkedin.com/company/mack-twins-makeup/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-4x"></i></a>
             </div>
         </div>
     </div>
@@ -29,7 +29,7 @@
                     <img class="img-fluid" src="/images/portrait_Two.webp" alt="portrait_image" height="1000vh" width="680vw">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <img class="img-fluid mt-sm-5 mt-md-0" src="/images/portrait_One.webp" alt="portrait_image" height="1000vh" width="680vw">
+                    <img class="img-fluid mt-4 mt-md-0" src="/images/portrait_One.webp" alt="portrait_image" height="1000vh" width="680vw">
                     <p class="pt-4 p-top">We eventually left the makeup industry to pursue Jobs In the field in which we studied – Biotechnology.</p>
                     <p class="p-top">Yet our passion for makeup never left us and as a side hustle we did some freelancing makeup Jobs.</p>
                     <p class="p-top">The Beauty Industry really ignited the passion within us , to push our creativity to the next level and enhance our artistry skill.</p>
@@ -89,15 +89,18 @@
         <p id="youtube-text"><strong>MACK TWINS</strong> will also appreciate it if you could LIKE , SUBSCRIBE and SHARE. Please switch on your notification buttons so that you can be notified the moment we publish a new video . Keep well , Keep Safe under Covid19.</p>
     </div>
     
-    <div class="row mt-5">
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <iframe width="321" height="206" src="https://www.youtube.com/embed/h3GjmEXP5k0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="row mt-5 text-center">
+        <div class="col-lg-3 col-md-12 col-sm-12">
+            <iframe width="280" height="154" src="https://www.youtube.com/embed/h3GjmEXP5k0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <iframe width="321" height="206" src="https://www.youtube.com/embed/aDrQFx7bzf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+            <iframe width="280" height="154" src="https://www.youtube.com/embed/aDrQFx7bzf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <iframe width="321" height="206" src="https://www.youtube.com/embed/TX9xK_IvdO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+            <iframe width="280" height="154" src="https://www.youtube.com/embed/TX9xK_IvdO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+            <iframe width="280" height="154" src="https://www.youtube.com/embed/--ZKf-k7E2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>
